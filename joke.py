@@ -15,7 +15,8 @@ elif answer.lower() != "yes":
 answer = input("Do you want to hear another joke?\n")
 if answer.lower() == "yes":
         print ("OK")
-#        break
-elif answer.lower() != "yes":
-        print: ("Good-Bye")
-#        break
+#        input 
+
+elif answer.lower() == "no":
+        print ("Good-Bye")
+
