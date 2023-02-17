@@ -17,6 +17,6 @@ if answer.lower() == "yes":
         print ("OK")
 #        input 
 
-elif answer.lower() == "no":
+else:
         print ("Good-Bye")
 
