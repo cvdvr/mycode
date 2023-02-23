@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # final project for python and TLG NDE Class
 import time
+from Geoff import printgeoff # this pulls in the printgeoff function from the Geoff.py file
 
 Geoff = 0
 Carl = 0
@@ -41,6 +42,9 @@ time.sleep(3)
 print("In memory of Geoff")
 
 # pretty picture of Geoff
+#~/mycode/Geoff.py
+printgeoff()
 
+#closing
 time.sleep(2)
 print("Thanks for playing " + name)
